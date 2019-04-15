@@ -1,0 +1,230 @@
+JFDML JFormDesigner: "6.0.6.0.190" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 0, 204, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel3"
+					"background": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "TRỞ VỀ"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/Images/back.png" )
+						"font": &Font0 new java.awt.Font( "Segoe UI", 1, 13 )
+						"background": #Color0
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+						addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 115
+						"height": 35
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 115
+					"height": 35
+					"x": 10
+					"y": 425
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+						"editable": false
+						"font": new java.awt.Font( "Segoe UI", 1, 22 )
+						"horizontalAlignment": 0
+						addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"y": 0
+						"width": 500
+						"height": 50
+						"x": 0
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 500
+					"height": 50
+					"x": 0
+					"y": 105
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "+"
+					"font": &Font1 new java.awt.Font( "Ubuntu", 1, 24 )
+					"foreground": new java.awt.Color( 25, 118, 210, 255 )
+					"background": new java.awt.Color( 187, 222, 251, 255 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 190
+					"y": 190
+					"width": 50
+					"height": 50
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"font": #Font1
+					"text": "-"
+					"background": new java.awt.Color( 187, 222, 251, 255 )
+					"foreground": new java.awt.Color( 25, 118, 210, 255 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3ActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 50
+					"height": 50
+					"x": 255
+					"y": 190
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4"
+					"text": "×"
+					"font": #Font1
+					"background": new java.awt.Color( 187, 222, 251, 255 )
+					"foreground": new java.awt.Color( 25, 118, 210, 255 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4ActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 50
+					"height": 50
+					"x": 190
+					"y": 255
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button5"
+					"text": "÷"
+					"font": #Font1
+					"background": new java.awt.Color( 187, 222, 251, 255 )
+					"foreground": new java.awt.Color( 25, 118, 210, 255 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button5ActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 50
+					"height": 50
+					"x": 255
+					"y": 255
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel4"
+					"background": &Color1 new java.awt.Color( 204, 255, 204, 255 )
+					"border": &MatteBorder0 new javax.swing.border.MatteBorder( 1, 1, 1, 1, sfield java.awt.Color black )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "THỜI GIAN: 00:00"
+						"font": &Font2 new java.awt.Font( "Segoe UI", 1, 16 )
+						"background": &Color2 new java.awt.Color( 204, 255, 204, 255 )
+						"horizontalAlignment": 0
+						addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 200
+						"height": 35
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 200
+					"height": 35
+					"x": 285
+					"y": 10
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel5"
+					"background": #Color1
+					"border": #MatteBorder0
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "SỐ CÂU: 0/20"
+						"font": #Font2
+						"background": #Color2
+						"horizontalAlignment": 0
+						addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 200
+						"height": 35
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 200
+					"height": 35
+					"x": 285
+					"y": 55
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button12"
+					"background": new java.awt.Color( 187, 222, 251, 255 )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Images/icons8-back-arrow-50 (1).png" )
+					"font": new java.awt.Font( "Ubuntu", 0, 32 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button12ActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 50
+					"height": 50
+					"x": 255
+					"y": 320
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button6"
+					"text": "BỎ QUA"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Images/skip.png" )
+					"font": #Font0
+					"background": #Color0
+					"borderPainted": false
+					"horizontalTextPosition": 2
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "KeyReleased", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button6ActionPerformed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 115
+					"height": 35
+					"x": 370
+					"y": 425
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"foreground": new java.awt.Color( 0, 255, 0, 255 )
+					"font": new java.awt.Font( "Segoe UI", 1, 16 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 200
+					"height": 20
+					"x": 10
+					"y": 80
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel6"
+					"background": new java.awt.Color( 204, 255, 204, 255 )
+					"border": new javax.swing.border.MatteBorder( 1, 1, 1, 1, sfield java.awt.Color black )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "ĐIỀN DẤU"
+						"font": new java.awt.Font( "Segoe UI", 1, 16 )
+						"background": new java.awt.Color( 204, 255, 204, 255 )
+						"horizontalAlignment": 0
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/Images/icons8-star-16.png" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 115
+						"height": 35
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 115
+					"height": 35
+					"x": 15
+					"y": 15
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"height": 500
+				"x": 0
+				"y": 0
+				"width": 500
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 500, 500 )
+		} )
+	}
+}

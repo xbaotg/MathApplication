@@ -1,0 +1,430 @@
+JFDML JFormDesigner: "6.0.6.0.190" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"background": new java.awt.Color( 0, 204, 255, 255 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel2"
+				"background": new java.awt.Color( 0, 204, 255, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel8"
+					"background": &Color0 new java.awt.Color( 255, 255, 102, 255 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "panel8MousePressed", true ) )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "CẤP ĐỘ 5"
+						"font": &Font0 new java.awt.Font( "Segoe UI", 1, 16 )
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color red
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 220
+						"height": 35
+						"x": 0
+						"y": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15"
+						"text": "Số câu: 10"
+						"font": &Font1 new java.awt.Font( "Segoe UI", 1, 16 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 20
+						"x": 10
+						"y": 25
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label16"
+						"text": "Thời gian: 45s"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 195
+						"height": 20
+						"x": 10
+						"y": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label21"
+						"font": #Font1
+						"text": "Thành tích:"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 100
+						"height": 20
+						"x": 10
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label31"
+						"font": #Font1
+						"text": "Chưa chơi"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 90
+						"height": 20
+						"x": 100
+						"y": 65
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 100
+					"x": 10
+					"y": 300
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel9"
+					"background": new java.awt.Color( 255, 255, 102, 255 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "panel9MousePressed", true ) )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "CẤP ĐỘ 2"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color red
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 220
+						"height": 35
+						"x": 0
+						"y": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label19"
+						"text": "Thời gian: 30s"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 195
+						"height": 20
+						"x": 10
+						"y": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label20"
+						"text": "Số câu: 10"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 20
+						"x": 10
+						"y": 25
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"font": #Font1
+						"text": "Thành tích:"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 100
+						"height": 20
+						"x": 10
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label28"
+						"font": #Font1
+						"text": "Chưa chơi"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 90
+						"height": 20
+						"x": 100
+						"y": 65
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 100
+					"x": 270
+					"y": 60
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel5"
+					"background": #Color0
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "panel5MousePressed", true ) )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "CẤP ĐỘ 1"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color red
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"height": 35
+						"width": 220
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": "Số câu: 10"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 25
+						"height": 20
+						"width": 200
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"text": "Thời gian: 30s"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 195
+						"height": 20
+						"x": 10
+						"y": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label11"
+						"font": #Font1
+						"text": "Thành tích:"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 90
+						"height": 20
+						"x": 10
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label27"
+						"font": #Font1
+						"text": "Chưa chơi"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 90
+						"height": 20
+						"x": 100
+						"y": 65
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 100
+					"x": 10
+					"y": 60
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel6"
+					"background": new java.awt.Color( 255, 255, 102, 255 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "panel6MousePressed", true ) )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "CẤP ĐỘ 6"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color red
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 220
+						"height": 35
+						"x": 0
+						"y": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label25"
+						"text": "Thời gian: 45s"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 195
+						"height": 20
+						"x": 10
+						"y": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label26"
+						"text": "Số câu: 10"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 20
+						"x": 10
+						"y": 25
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label24"
+						"font": #Font1
+						"text": "Thành tích:"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 100
+						"height": 20
+						"x": 10
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label32"
+						"font": #Font1
+						"text": "Chưa chơi"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 90
+						"height": 20
+						"x": 100
+						"y": 65
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 100
+					"y": 300
+					"x": 270
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel11"
+					"background": #Color0
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "panel11MousePressed", true ) )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "CẤP ĐỘ 3"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color red
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 230
+						"height": 35
+						"x": 0
+						"y": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label12"
+						"text": "Số câu: 10"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 20
+						"x": 10
+						"y": 25
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"text": "Thời gian: 50s"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 195
+						"height": 20
+						"x": 10
+						"y": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label18"
+						"font": #Font1
+						"text": "Thành tích:"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 100
+						"height": 20
+						"x": 10
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label30"
+						"font": #Font1
+						"text": "Chưa chơi"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 90
+						"height": 20
+						"x": 100
+						"y": 65
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 100
+					"y": 180
+					"x": 10
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel3"
+					"background": &Color1 new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "TRỞ VỀ"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/Images/back.png" )
+						"font": new java.awt.Font( "Segoe UI", 1, 13 )
+						"background": #Color1
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 115
+						"height": 35
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 10
+					"y": 425
+					"width": 115
+					"height": 35
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel10"
+					"background": new java.awt.Color( 255, 255, 102, 255 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "panel10MousePressed", true ) )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "CẤP ĐỘ 4"
+						"font": #Font0
+						"horizontalAlignment": 0
+						"foreground": sfield java.awt.Color red
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 225
+						"height": 35
+						"x": -5
+						"y": 0
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label22"
+						"text": "Thời gian: 40s"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 195
+						"height": 20
+						"x": 10
+						"y": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label23"
+						"text": "Số câu: 10"
+						"font": #Font1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 200
+						"height": 20
+						"x": 10
+						"y": 25
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17"
+						"font": #Font1
+						"text": "Thành tích:"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 100
+						"height": 20
+						"x": 10
+						"y": 65
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label29"
+						"font": #Font1
+						"text": "Chưa chơi"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 90
+						"height": 20
+						"x": 100
+						"y": 65
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 220
+					"height": 100
+					"x": 270
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "CHỌN CẤP ĐỘ"
+					"font": new java.awt.Font( "Segoe UI", 1, 16 )
+					"horizontalAlignment": 0
+					"background": new java.awt.Color( 0, 204, 255, 255 )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Images/icons8-star-16.png" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"y": 10
+					"width": 200
+					"height": 30
+					"x": 150
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 500
+				"height": 500
+				"x": 0
+				"y": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 20 )
+			"size": new java.awt.Dimension( 500, 530 )
+		} )
+	}
+}
